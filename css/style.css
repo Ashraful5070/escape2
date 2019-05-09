@@ -1,0 +1,446 @@
+body{
+	margin:0;
+	padding:0;
+
+}
+
+header{
+	background-image: url(../images/banner.png);
+	min-height: 500px;
+	background-position: center;
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+.container{
+	width:65%;
+	/*border:1px solid white;*/
+	margin:0 auto;
+	overflow: hidden;
+	padding-top: 25px;
+
+}
+
+.icon{
+	width:20%;
+	/*border:1px solid orange;*/
+	overflow: hidden;
+	float: left;
+}
+
+.logo{
+	width:20%;
+	float: left;
+
+}
+
+.text{
+	width:70%;
+	float: right;
+	margin-top: 5px;
+	margin-left:5px;
+}
+.menu{
+	width:70%;
+	/*border:1px solid red;*/
+	float: right;
+	margin-top: -10px;
+}
+
+.menu ul{
+	list-style: none;
+}
+.menu ul li{
+	
+
+}
+.menu ul li a{
+	display: block;
+	float: left;
+	text-decoration: none;
+	font-family: ﻿BrandonGrotesque-Medium;
+	font-size: 18px;
+	color:rgba(255, 255, 255, 255);
+	text-align: center;
+	transition: .5s;
+	padding: 0 34px;
+
+
+}
+.menu ul li a:hover{
+	color:orange;
+}
+
+.menu ul li:last-child a{
+ 	padding-right: 0;
+}
+
+.banner{
+	/*border:1px solid yellow;*/
+	padding-top: 55px;
+	padding-bottom: 80px;
+
+}
+.content{
+	/*border:1px solid yellow;*/
+	width:55%;
+	margin:0 auto;
+}
+
+.content p{
+	font-family: ;
+	font-size: 30pt;
+	color: rgba(255, 255, 255, 255);
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.content h1{
+	font-family: ;
+	font-size: 48pt;
+	color: rgba(255, 255, 255, 255);
+	text-align: center;
+	margin-top: 0;
+	text-transform: uppercase;
+}
+.teg{
+	text-align: center;
+	    color: #fff;
+    text-decoration: none;
+    font-size: 23px;
+    border: 2px solid #fff;
+    padding: 20px 50px;
+    transition: .5s;
+    margin-left: 270px;
+    
+}
+
+/*content start*/
+.container2{
+	/*border:1px solid black;*/
+	overflow: hidden;
+	margin-top:100px;
+}
+
+
+.text_container{
+	width:65%;
+	/*border:1px solid red;*/
+	margin:0 auto;
+}
+
+.text{
+	width: 65%;
+	/*border:1px solid green;*/
+	float: left;
+}
+
+.text h1{
+	font-family: ;
+	font-size: 50pt;
+	color: rgba(34, 34, 34, 255);
+	margin-bottom: 20px;
+	margin-top: 5px;
+}
+
+.text p{
+	font-family: ;
+	font-size: 12pt;
+	color: rgba(119, 119, 119, 255);
+	text-align: left;
+}
+.image{
+	width: 30%;
+	/*border:1px solid green;*/
+	float: right;
+}
+
+/*section2 start*/
+.container3{
+	overflow: hidden;
+	background-color: #fafafa;
+	margin-top: 75px;
+	margin-bottom: 75px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.text2{
+	width: 65%;
+	/*border:1px solid green;*/
+	float: right;
+}
+
+.text2 h1{
+	font-family: ;
+	font-size: 50pt;
+	color: rgba(34, 34, 34, 255);
+	margin-bottom: 20px;
+	margin-top: 5px;
+}
+
+.text2 p{
+	font-family: ;
+	font-size: 12pt;
+	color: rgba(119, 119, 119, 255);
+	text-align: left;
+}
+.image2{
+	width: 30%;
+	/*border:1px solid green;*/
+	float: left;
+}
+
+/*data start*/
+.container4{
+	/*border:1px solid green;*/
+}
+
+.fullbox{
+	width:65%;
+	/*border:1px solid red;*/
+	margin:0 auto;
+	overflow: hidden;
+}
+.column1{
+	width:45%;
+	/*border:1px solid orange;*/
+	float: left;
+	overflow: hidden;
+
+}
+.data{
+	overflow: hidden;
+	margin: 30px 0;
+}
+.sign{
+	width:20%;
+	/*border:1px solid black;*/
+	float: left;
+}
+
+.detail{
+	width:75%;
+	/*border:1px solid red;*/
+	float: right;
+}
+
+.detail h6{
+	font-family: ;
+	font-size: 16pt;
+	color: rgba(34, 34, 34, 255);
+	text-align: left;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.detail p{
+	font-family: ;
+	font-size: 12pt;
+	color: rgba(119, 119, 119, 255);
+	text-align: left;
+	margin-top: 5px;
+}
+.column2{
+	width:45%;
+	/*border:1px solid orange;*/
+	float: right;
+	overflow: hidden;
+
+}
+/*data end*/
+
+/*awesome start*/
+
+.container5{
+	/*border:1px red;*/
+	min-height: 800px;
+	background-color: #fafafa;
+	margin-top: 50px;
+}
+
+.add{
+	width:65%;
+	/*border:1px solid black;*/
+	margin:0 auto;
+	overflow: hidden;
+}
+
+.heading{
+	width:45%;
+	/*border:1px solid orange;*/
+	margin: 25px auto;
+	padding-top: 0;
+}
+
+.heading h1{
+	font-family: ;
+	font-size: 40pt;
+	color: rgba(34, 34, 34, 255);
+	text-align: left;
+	margin-bottom: 0;
+}
+
+.heading p{
+	font-family: ;
+	font-size: 16pt;
+	color: rgba(119, 119, 119, 255);
+	text-align: center;
+	margin-top: 0;
+}
+
+.ball{
+	width:25%;
+	/*border:1px solid red;*/
+	float: left;
+}
+.border{
+	width:70%;
+	/*border:1px solid black;*/
+	float:right;
+	overflow: hidden;
+}
+.topic{
+	
+	/*border:1px solid green;*/
+	margin: 10px 15px;
+	padding: 30px 0;
+}
+
+.topic:before{
+	position: absolute;
+    content: "";
+    top: 169px;
+    left: 228px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 60px 0 0;
+    border-color: #0c1019 transparent transparent transparent;
+    line-height: 0px;
+_border-color: #0c1019 #000000 #000000 #000000;
+}
+
+.topic h3{
+	font-family: ;
+	font-size: 16pt;
+	color: rgba(119, 119, 119, 255);
+	margin:0 0;
+
+}
+
+.topic p{
+	font-family: ;
+	font-size: 13pt;
+	color: rgba(118, 144, 197, 255);
+	margin-top:15px;
+
+}
+.add2{
+	width:65%;
+	/*border:1px solid black;*/
+	margin:55px auto;
+	overflow: hidden;
+}
+
+.ball2{
+	width:25%;
+	/*border:1px solid red;*/
+	float: right;
+}
+
+.border2{
+	width:70%;
+	/*border:1px solid black;*/
+	float:left;
+	overflow: hidden;
+}
+
+.topic2{
+	/*border:1px solid green;*/
+	margin: 10px 15px;
+	padding: 30px 0;
+	
+}
+
+.topic2 h3{
+	font-family: ;
+	font-size: 16pt;
+	color: rgba(119, 119, 119, 255);
+	margin:0 0;
+
+}
+
+.topic2 p{
+	font-family: ;
+	font-size: 13pt;
+	color: rgba(118, 144, 197, 255);
+	margin-top:15px;
+}
+
+/*awesome end*/
+
+/*logos start*/
+.logos_container{
+	width:60%;
+	/*border:1px solid green;*/
+	margin:0 auto; 
+	overflow: hidden;
+}
+.logos_container img{
+	float: left;
+	margin:35px 20px;
+}
+
+/*amazing part start*/
+.amazing{
+	background-color:#111111;
+	padding: 70px 0;
+}
+
+.amazing_container {
+
+	width:60%;
+	/*border:1px solid red;*/
+	margin:0 auto;
+
+}
+
+.amazing_head{
+	width:100%;
+	/*border:1px solid black;*/
+
+}
+
+.amazing_head h1{
+	color: #ffffff;
+	text-align: center;
+	font-family: ;
+	font-size: 40px;
+	margin: 0 0;
+	
+}
+.amazing_head p{
+	text-align: center;
+	font-size: 20px;
+	color:#ffffff;
+	margin:0px;
+	padding-bottom: 40px;
+}
+.amazing_logo img {
+
+    margin: 0 23px;
+}
+
+.amazing_footer {
+	width:80%;
+	/*border:1px white;*/
+	margin:0 auto;
+}
+
+.amazing_footer p{
+	color: #ffffff;
+	font-family: ;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 30px;
+}
+/*amazing part end*/
